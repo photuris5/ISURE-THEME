@@ -1,0 +1,227 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.xtd-web-fonts-body {
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    float: left;
+    padding: 19px 19px 19px 19px;
+    height: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.xtd-web-fonts-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    margin-top: 20px;
+    max-height: 375px;
+    width: calc(100% - 160px);
+    margin-bottom: 0px;
+}
+
+.search {
+    background-color: rgb(255, 255, 255);
+    /* width: 560px; */
+    height: 50px;
+    position: relative;
+}
+
+.search:hover .search_button {
+    background: url('search_button_h.png') no-repeat center transparent;
+}
+
+.search.selected input {
+    color: rgb(51, 51, 51);
+    width: 100%;
+    margin-top: 0px;
+    line-height: 49px;
+    padding-left: 50px;
+}
+
+.search.selected .search_button {
+    background: url('search_button_h.png') no-repeat center transparent;
+    position: absolute;
+    z-index: 10;
+}
+
+.webfont_string {
+    margin: 17px 0px 0px 0px;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 120%;
+    color: rgb(176, 176, 176);
+    text-align: left;
+    background: transparent;
+}
+
+.search_button {
+    display: block;
+    float: left;
+    margin: 15px 0px 0px 15px;
+    width: 19px;
+    height: 19px;
+    background: url('search_button.png') no-repeat center transparent;
+    cursor: pointer;
+}
+
+ul#font-list {
+    list-style-type: none;
+    /* height: auto; */
+    /* width: 100%; */
+    padding-left: 0px;
+    /* text-align: center; */
+    /* display:inline-block; */
+}
+
+ul#font-list li {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 16px;
+    border: rgb(232, 232, 232);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(51, 51, 51);
+}
+
+ul#font-list li:hover,
+ul#font-list li.clicked.selected {
+    border-color: rgb(91, 167, 235);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.font_preview {
+    margin-top: 43px;
+    margin-left: 20px;
+    margin-right: 20px;
+    clear: both;
+}
+
+.xtd-web-fonts-preview {
+    margin: 20px 0px 0px 0px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    height: calc(100% - 20px);
+    float: right;
+    padding-right: 10px;
+    border: rgb(199, 199, 199);
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.webfonts_options {
+    list-style-type: none;
+    margin-top: 15px;
+    padding-left: 20px;
+    overflow: auto;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+ul.webfonts_options li {
+    margin-bottom: 10px;
+}
+
+.font_w {
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 120%;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.font_label {
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: "Open Sans";
+    font-size: 11px;
+    line-height: 120%;
+    color: rgb(51, 51, 51);
+    text-align: left;
+}
+
+input[type="checkbox"].custom_checkbox {
+    display: none;
+}
+
+input[type="checkbox"].custom_checkbox + label span {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-right: 7px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: url("check.png") no-repeat center transparent;
+    cursor: pointer;
+}
+
+input[type="checkbox"].custom_checkbox:checked + label span {
+    background: url("checkA.png") no-repeat center transparent;
+}
+
+input[type="checkbox"].custom_checkbox:checked + label {
+    color: rgb(76, 165, 255);
+
+}
+
+input[type="checkbox"].custom_checkbox:checked + label:hover span {
+    background: url("checkA.png") no-repeat center transparent;
+}
+
+input[type="checkbox"].custom_checkbox + label:hover span {
+    background: url("checkH.png") no-repeat center transparent;
+
+}
+
+label {
+    font-weight: 400;
+
+}
+
+.cust_ch_label {
+    font-size: 12px;
+    line-height: 120%;
+    color: rgb(51, 51, 51);
+    text-align: left;
+
+}
+
+.cust_ch_label:hover {
+    color: rgb(76, 165, 255);
+
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(176, 176, 176);
+    width: 6px;
+    height: 21px;
+    -webkit-border-radius: 50%/14%;
+    border-radius: 20px;
+}
+
+ul#font-list li.installed {
+    border-bottom: 3px solid green;
+}
+
+body.edit .search {
+    display: none;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html >
+<head>
+  <title>Web Fonts</title>
+     <script src="jquery.js"></script>
+     <script type="text/javascript">
+     	var imported = document.createElement('script');
+     	imported.src = "webfonts.js?time="+ Date.now();
+     	document.head.appendChild(imported);
+     </script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/webfonts.css"> 
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="web_f.css">  
+</head>
+<body>
+
+<div class="xtd-web-fonts-body">
+<div class="search">
+<div class="search_button"></div>
+<input type="text" placeholder="Search" id="search_input" class="webfont_string" /></div>
+<div class="xtd-web-fonts-list">
+<ul id="font-list"></ul>
+</div>
+<div class="xtd-web-fonts-preview" >
+<div class="font_w">Font Weights</div>
+<ul class="webfonts_options"></ul>
+</div>
+</div>
+
+<form style="display:none;">
+<input type="hidden" id="font_family_iframe"/>
+<input type="hidden" id="font_weight_iframe"/>
+<input type="hidden" id="font_style_iframe"/>
+<form>
+
+ 
+ 
+</body>
+</html>

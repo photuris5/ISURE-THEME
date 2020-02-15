@@ -1,0 +1,418 @@
+.CodeMirror.cm-s-kirki-dark.CodeMirror-wrap {
+    height: 70vh;
+    width: 60%;
+    margin-top: 15vh;
+    background-color: #1d1d1d;
+    opacity: 0.90;
+}
+
+.customize-control-kirki-code .kirki-codemirror-editor.expanded + .CodeMirror + a.close {
+    left: calc(60% - 39px);
+    top: 15vh;
+    right: auto;
+    opacity: 1;
+}
+
+.customize-control .webgradient {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+li.attachment.webgradients-image {
+    width: 20%;
+    overflow: hidden;
+}
+
+.attachment-preview .webgradient {
+    height: 100%;
+}
+
+.customize-control-kirki-typography .wrapper .mobile-font-size {
+    width: 50%;
+}
+
+.customize-control-kirki-typography .wrapper .mobile-font-size h5 {
+    margin: 0.67em 0 0;
+}
+
+#customize-theme-controls ul.section-settings-container.accordion-section-content {
+    background: #ececec;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 0px;
+}
+
+#customize-theme-controls ul.section-settings-container.accordion-section-content > li,
+#customize-theme-controls ul.section-settings-container.accordion-section-content > li > ul.holder {
+    border: 1px solid #c1c1c1;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+#customize-theme-controls ul.section-settings-container.accordion-section-content > li > ul.holder {
+    display: inline-block;
+    position: static;
+    width: 260px;
+    margin-left: 10px;
+    height: auto;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#customize-theme-controls ul.section-settings-container.accordion-section-content > li.customize-control-sectionseparator {
+    border: none;
+    padding: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: 290px;
+}
+
+#customize-controls .customize-control-kirki-typography .wrapper {
+    padding: 0px 10px 10px 10px;
+    box-shadow: none;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: 0px;
+}
+
+#customize-controls .customize-control-kirki-typography .color.customize-control-kirki-color {
+    width: 100%;
+}
+
+.customize-control-kirki .description {
+    font-weight: 400;
+    padding: 2px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cp-items .upload-button.cp-mdi-select {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+#customize-theme-controls ul.section-settings-container.accordion-section-content.no-border > li:not(.customize-control-sectionseparator) {
+    border: none;
+    padding-bottom: 16px;
+}
+
+li.customize-control {
+    margin-left: 3px;
+    margin-right: 3px;
+    width: calc(100% - 6px);
+}
+
+li.customize-control.button-pro-option {
+    width: calc(50% - 6px);
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    clear: none;
+    height: 77px;
+}
+
+.button-pro-option input,
+.button-pro-option select {
+    width: 100% !important;
+}
+
+iframe#cp-webfonts-iframe {
+    display: block;
+    height: 470px !important;
+    margin-left: -15px;
+    margin-right: -15px;
+    width: calc(100% + 30px) !important;
+    float: none;
+    clear: both;
+    margin-top: -2px;
+    margin-bottom: -15px;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content {
+    padding: 0px;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content.open {
+    padding: 12px;
+}
+
+button.button.full-width {
+    width: 100%;
+}
+
+.customize-control-kirki-typography a.addwebfont {
+    width: 100%;
+    text-align: center;
+    height: 24px;
+    line-height: 22px;
+    padding: 0 8px 1px;
+    font-size: 11px;
+}
+
+.sp-container button {
+    font-size: 11px;
+}
+
+.sp-palette.sp-thumb.sp-cf + .sp-palette-button-container.sp-cf {
+    margin-top: 16px;
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
+}
+
+.thickbox-loading.data-edit-popup .sp-replacer.sp-light {
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-color: #dddddd;
+    height: 37px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+    padding-top: 8px;
+}
+
+.thickbox-loading.data-edit-popup .sp-preview {
+    width: calc(100% - 20px);
+}
+
+.thickbox-loading.data-edit-popup .sp-preview-inner.sp-clear-display {
+    background-image: none;
+}
+
+.thickbox-loading.data-edit-popup .sp-palette-button-container.sp-cf button {
+    display: block;
+    min-width: 140px;
+}
+
+.thickbox-loading.data-edit-popup .linked-icon + .colorselect {
+    position: relative;
+    right: 0px;
+    width: calc(100% - 150px);
+    left: auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: 133px;
+}
+
+#cp-items .selectize-control > div a.remove {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+#cp-items .selectize-control div.item {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#customize-theme-controls ul.section-settings-container.accordion-section-content.no-border > li:not(.customize-control-sectionseparator) {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+li#cp-section-setting-popup .selectize-input:after {
+    line-height: 29px;
+}
+
+.customizer-right-section > ul {
+    height: calc(100% - 53px);
+}
+
+span.close-panel {
+    top: 4px;
+    left: 282px;
+}
+
+li#cp-section-setting-popup .wp-picker-holder {
+    position: relative;
+    z-index: 10000;
+}
+
+li#cp-section-setting-popup .iris-picker.iris-border {
+    position: absolute;
+}
+
+/* Slider style */
+.customize-control-header-slider .slider-fields .slider-row {
+    margin-top: 0.5rem;
+    position: relative;
+    background: #fff;
+}
+
+.customize-control-header-slider .slider-fields .slider-row:hover {
+    box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.58);
+}
+
+.customize-control-header-slider .slider-fields .slider-row.minimized {
+    padding: 0;
+    border: none;
+}
+
+.customize-control-header-slider .slider-fields .slider-row.minimized:hover {
+    box-shadow: none;
+}
+
+.customize-control-header-slider .slider-fields .slider-row .slider-row-header {
+    background: #03a9f4;
+    border: 1px solid #03a9f4;
+    color: #ffffff;
+    position: relative;
+    padding: 3px 15px 3px 0px;
+    height: auto;
+    min-height: 32px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.customize-control-header-slider .slider-fields .slider-row .slider-row-header:hover {
+    cursor: move;
+}
+
+.customize-control-header-slider .slider-fields .slider-row.minimized .slider-row-header {
+    background: #55616d;
+    border: 1px solid #dfdfdf;
+}
+
+.customize-control-header-slider .slider-fields .slider-row.minimized .slider-row-header:hover {
+    border: 1px solid #999;
+}
+
+.customize-control-header-slider .slider-fields .slider-row .slider-row-header .dashicons {
+    font-size: 22px;
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translate(0%, -56%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.customize-control-header-slider .slider-fields .slider-row .slider-row-label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 38px;
+    display: block;
+    text-transform: capitalize;
+    width: 70%;
+    overflow: hidden;
+    height: 38px;
+    margin: 0 auto;
+}
+
+.customize-control-header-slider .slider-fields .slider-row-duplicate {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 40px;
+    font-size: 21px;
+    color: #eee;
+    cursor: pointer;
+}
+
+.customize-control-header-slider .slider-fields .slider-row-remove {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 10px;
+    font-size: 21px;
+    color: #eee;
+    cursor: pointer;
+}
+
+.customize-control-header-slider .slider-row-duplicate:hover {
+    color: #5bb7fb;
+}
+
+.customize-control-header-slider .slider-row-remove:hover {
+    color: #fb4949;
+}
+
+.customize-control-header-slider .slider-fields .slider-row.minimized .slide-content {
+    display: none;
+}
+
+.customize-control-header-slider button.slider-add {
+    margin-top: 1rem;
+}
+
+.customize-control-header-slider .slider-fields .slide-content {
+    height: auto;
+    overflow: auto;
+    padding: 5px 10px;
+}
+
+.customize-control-header-slider .slider-fields .slide-content > .customize-control-sectionseparator > .materialis-separator {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ffffff;
+    color: #555d66;
+    padding: 6px 2px;
+}
+
+.customize-control-header-slider .slider-fields .slide-content .customize-control-ope-button > label > button {
+    width: 100%;
+    min-height: 30px;
+}
+
+.customize-control-header-slider .slider-notification {
+    margin-bottom: 0px;
+}
+
+/*MENU COLOR BORDER SEPARATION*/
+[id*='_menu_color_group'] li.customize-control-kirki-color[id*=menu_color],
+[id*='_menu_color_group'] li.customize-control-kirki-color[id*=menu_active_color],
+[id*='_menu_color_group'] li.customize-control-kirki-color[id*=menu_hover_color] {
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #c1c1c1 !important;
+}
+
+/** color palette **/
+
+
+li#customize-control-color_palette li.repeater-row .repeater-row-content {
+    display: block !important;
+}
+
+li#customize-control-color_palette .repeater-row-header.ui-sortable-handle {
+    pointer-events: none;
+}
+
+li#customize-control-color_palette i.dashicons.repeater-minimize {
+    display: none;
+}
+
+li#customize-control-color_palette .repeater-field.repeater-field-color {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+li#customize-control-color_palette li.repeater-row.minimized {
+    border: 1px solid #999;
+}
+
+li#customize-control-color_palette .repeater-field.repeater-field-color .customize-control-title {
+    display: none;
+}
+
+li#customize-control-color_palette .sp-replacer.sp-light {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
