@@ -15,6 +15,7 @@
             ?>
             <div class="col-padding">
                 <?php materialis_single_item_title($before = "<h3>", $after = "</h3>"); ?>
+                <p>By:&nbsp<?php the_field('first_name'); ?>&nbsp<?php the_field('last_name');?> </p>
                 <?php
                 the_content();
                 wp_link_pages(array(
