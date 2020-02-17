@@ -3,7 +3,7 @@ if ( ! apply_filters('materialis_show_post_meta', true)) {
     return;
 }
 ?>
-
+<p>Products Produced: <?php the_field('last_name'); ?> </p>
 <div class="post-meta mdc-card__actions col-padding">
     <div class="mdc-card__action-icons col-xs-12 col-sm-fit">
         <a class="post-footer-link" href="<?php echo esc_url(get_permalink()); ?>">
